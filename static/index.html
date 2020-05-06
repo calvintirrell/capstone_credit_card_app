@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Application Page</title>
+    <link rel = "stylesheet" media = "screen" href = "/static/bootstrap.min.css">
+  </head>
+  <body>
+    <div class = "jumbotron">
+      <div class = "container">
+        <h1 class = "display-3">Credit Card Classifier</h1>
+        <p>
+          Pick a fictional person below to see if their information would allow<br>
+          them to be approved for a credit card based on my trained model.
+        </p>
+        <img src="/static/card_img.png" alt="Blue generic credit card" width="700" height="400">
+        <br>
+        <p>
+          <form action = "/get_results" method = "post">
+
+            <input type = "radio" id = "male" name = "selection" value = "James_Bond">
+            <label for = "James_Bond">Bond. James Bond.</label><br><br>
+
+            <input type = "radio" id = "female" name = "selection" value = "Hermoine_Granger">
+            <label for = "Hermoine_Granger">I'm Hermoine Granger and you are?</label><br><br>
+
+            <input type = "radio" id = "female" name = "selection" value = "Catwoman">
+            <label for = "Catwoman">Catwoman. Watch your pockets.</label><br><br>
+
+            <input type = "radio" id = "male" name = "selection" value = "Maverick">
+            <label for = "Maverick">Maverick, the top gun.</label><br><br>
+
+            <input type = "submit" class = "btn btn-primary btn-lg" value = "Submit">
+          </form>
+        </p>
+        <a href="https://www.psdgraphics.com/psd/credit-card-template/">Card images from PSD Graphics</a> |
+        <a href="https://www7.lunapic.com/editor/">Images edited using LUNAPIC</a>
+      </div>
+    </div>
+  </body>
+</html>

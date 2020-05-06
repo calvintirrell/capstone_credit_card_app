@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Application Results</title>
+        <link rel="stylesheet" media="screen" href="{{ url_for('static', filename='bootstrap.min.css') }}">
+    </head>
+  <body>
+    <div class = "jumbotron">
+      <div class = "container">
+        <h1 class = "display-3">Card Application Approved</h1>
+        Application: 
+        <br><br>
+        {{ prediction }}
+        <br><br>
+        <img src="../static/card_img2.png" alt="Gold generic credit card" width="850" height="550">
+        <br><br>  
+        <a href="/static/index.html" class="btn btn-primary btn-lg" role="button">Main Page</a><br><br>
+        <a href="https://www.psdgraphics.com/psd/credit-card-template/">Card images from PSD Graphics</a> |
+        <a href="https://www7.lunapic.com/editor/">Images edited using LUNAPIC</a>
+        <br>
+      </div>
+    </div>
+  </body>
+</html>
