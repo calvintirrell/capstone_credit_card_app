@@ -1,2 +1,2 @@
-# capstone_credit_card_app
+# Credit Card Application
 Attempting to deploy my local Flask web app to AWS
